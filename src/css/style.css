@@ -5,19 +5,19 @@
     font-size: 18px;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow: hidden;
+    
 }
 
 body
 {
     width: 100vw;
     height: 100vh;
-
+    overflow: hidden;
 }
 
 main
 {
-    width: 90%;
+    width: 99%;
     margin: 3rem auto;
     padding: 1rem 0.2rem;
     background-color: rgba(195, 95, 95, 0.5);
