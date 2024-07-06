@@ -1,0 +1,93 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main
+{
+    width: 90%;
+    margin: 3rem auto;
+    padding: 1rem 0.2rem;
+    background-color: rgba(195, 95, 95, 0.5);
+    text-align: center;
+}
+
+main figure
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main img
+{
+    max-width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+figcaption button
+{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-solid
+{
+    font-size: 40px;
+    padding: 1rem;
+    color: rgb(4, 78, 152);
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+figcaption button
+{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+figcaption button:hover
+{
+    background-color: rgba(0, 0, 0, 0.03); 
+}
+
+figcaption button:active
+{
+    transform: scale(1.22);
+}
+
+@media (min-width: 780px)
+{
+    main
+    {
+        width: 70%;
+    }
+}
+
+@media (min-width: 100px)
+{
+    main
+    {
+        width: 50%;
+    }
+}
